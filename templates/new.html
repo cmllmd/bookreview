@@ -1,0 +1,51 @@
+{{define "New"}}
+{{template "_head"}}
+{{template "_menu"}}
+
+
+<div class="container">
+
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5">Novo Comentário</h1>
+                <p class="lead">Insira os detalhes</p>
+            </div>
+        </div>
+        <form method="POST" action="insert">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="comentario">Comentário:</label>
+                        <input type="text" name="comentario" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <label for="nota">Nota:</label>
+                        <input type="number" name="nota" class="form-control" step="1">
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" value="salvar" class="btn btn-success">Salvar</button>
+            <a class="btn btn-info" href="/">Voltar</a>
+        </form>
+    </body>
+
+</html>
+</div>
+</body>
+
+</html>
+{{end}}
