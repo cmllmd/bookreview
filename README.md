@@ -9,8 +9,8 @@
 
 ### Features
 
-- [] Escrever comentários 
-- [] Editar comentarios criados
-- [] Excluir um comentário 
+- [✅] Escrever comentários 
+- [✅] Editar comentarios criados
+- [✅] Excluir um comentário 
 - [] Cadastrar usuário 
 - [] Buscar por comentários de outros usuários  
